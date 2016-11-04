@@ -4,3 +4,4 @@ _site
 .netlify
 npm-debug.log
 node_modules
+package.json
