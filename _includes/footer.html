@@ -1,0 +1,54 @@
+<footer class="site-footer">
+</footer>
+<script>
+(function() {
+
+  smoothScroll.init();
+
+  var nav = document.getElementById("subnav");
+  var box = document.getElementById("main").getClientRects();
+  var main_top = box[0].top;
+  window.addEventListener("scroll", actionThrottler);
+
+  var actionTimeout;
+  function actionThrottler() {
+    // ignore resize events as long as an actualResizeHandler execution is in the queue
+    if ( !actionTimeout ) {
+        actionTimeout = setTimeout(function() {
+            actionTimeout = null;
+            actualActionHandler();
+
+       // The actualResizeHandler will execute at a rate of 15fps
+       }, 66);
+    }
+  }
+
+  function actualActionHandler() {
+    function stickyNav(){
+       var sticky = main_top - window.pageYOffset;
+       (sticky < 10) ? addClass(nav, "sticky") : removeClass(nav, "sticky");
+    }
+    stickyNav();
+  }
+
+  function addClass(element, class_name){
+    var classes = element.className.split(" ");
+    if (classes.indexOf(class_name) < 0 ){
+        classes = classes.concat(class_name);
+    }
+    classes = classes.join(" ");
+    element.className = classes;
+  }
+
+  function removeClass(element, class_name){
+    var classes = element.className.split(" ");
+    var index = classes.indexOf(class_name);
+    if (index > -1) {
+        classes.splice(index, 1);
+    }
+    classes = classes.join(" ");
+    element.className = classes;
+  }
+
+}());
+</script>
