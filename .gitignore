@@ -3,3 +3,4 @@ _site
 .users.yml
 .netlify
 npm-debug.log
+node_modules
