@@ -10,9 +10,9 @@ about_liz_text: is a science and environment writer based in Bristol, UK. Fascin
   reported on beluga whales in the Canadian Arctic and Finnish reindeer. She has a
   materials science degree from Oxford University and a PhD in thin-film diamond.
   She blogs at [lizkalaugher.net](http://lizkalaugher.net).
-about_matin_text: is editor of the international magazine Physics World, where he
-  enjoys telling the stories that underpin physics and showing how it impacts so much
-  of everyday life. Based in Bristol, UK, he first became intrigued by how animals
+about_matin_text: is the editor of the international magazine Physics World, where
+  he enjoys telling the stories that underpin physics and showing how it impacts so
+  much of everyday life. Based in Bristol, UK, he first became intrigued by how animals
   use physics after publishing a special issue of Physics World on the subject in
   2012. Matin has a degree in chemical physics and did a PhD and postdoc squashing
   food gels at Cambridge University before moving into publishing. He blogs at [matindurrani.net](http://matindurrani.net).
