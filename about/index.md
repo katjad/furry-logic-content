@@ -3,8 +3,20 @@ title: About the book and the authors
 date: 2016-11-03 18:48:00 Z
 about_book_heading: About the book
 about_authors_heading: About the authors
-about_liz_text: Text about Liz
-about_matin_text: Text about Matin
+about_liz_text: "**Liz Kalaugher **is a science and environment writer based in Bristol,
+  UK. Fascinated by animals since a childhood encounter with a squashed frog, she
+  is a particular fan of bats, bees and badgers. After winning journalism fellowships
+  from the World Federation of Science Journalists and the European Geosciences Union,
+  Liz has also reported on beluga whales in the Canadian Arctic and Finnish reindeer.
+  She has a materials science degree from Oxford University and a PhD in thin-film
+  diamond. She blogs at [lizkalaugher.net](http://lizkalaugher.net)."
+about_matin_text: "**Matin Durrani** is editor of the international magazine Physics
+  World, where he enjoys telling the stories that underpin physics and showing how
+  it impacts so much of everyday life. Based in Bristol, UK, he first became intrigued
+  by how animals use physics after publishing a special issue of Physics World on
+  the subject in 2012. Matin has a degree in chemical physics and did a PhD and postdoc
+  squashing food gels at Cambridge University before moving into publishing. He blogs
+  at [matindurrani.net](http://matindurrani.net)."
 layout: about
 ---
 
