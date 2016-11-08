@@ -3,6 +3,10 @@ title: Animal stories
 date: 2016-11-03 19:48:00 Z
 layout: subnav_animals
 ---
+<section id="intro">
+{{ content }}
+<p>&nbsp;</p>
+</section>
 
 {% for chapter in site.chapters %}
     <section id="{{ chapter.title }}" class="chapter pushdown-30">
@@ -13,8 +17,8 @@ layout: subnav_animals
             <h3 {% if article.id %}id={{ article.id }}{% endif %}>{{ article.title }}</h3>
 
             {% if article.image %}
-            <img class="responsive" src="article.image.source" alt="article.image.alt">
-            <p class="credit">{{ article.image.credit }}</p>
+            <img class="responsive" src="{{ article.image }}" alt="article.image_alt">
+            <p class="credit">{{ article.image_credit }}</p>
             {% endif %}
 
             {% if article.half_image %}
@@ -34,4 +38,5 @@ layout: subnav_animals
             {% endif %}
         </article>
     </section>
+   {% endfor %}
 {% endfor %}
