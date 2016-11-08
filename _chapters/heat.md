@@ -7,7 +7,7 @@ articles:
     feet. These pick up sound waves that have travelled through the ground from a
     distant elephant's alarm call, or maybe even an earthquake. In her other job,
     elephant researcher Caitlin O'Connell is developing a vibration-based hearing
-    aid for humans.\n       "
+    aid for humans.\n       \nSo how about that?"
   image: "/uploads/elephants800-2fe5fe.jpg"
   image_alt: Elephants
   image_credit: 'Image: Katrin Schürmann, private'
