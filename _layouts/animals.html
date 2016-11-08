@@ -1,0 +1,37 @@
+---
+title: Animal stories
+date: 2016-11-03 19:48:00 Z
+layout: subnav_animals
+---
+
+{% for chapter in site.chapters %}
+    <section id="{{ chapter.title }}" class="chapter pushdown-30">
+        <h2 class="animal-stories">{{ chapter.title }}</h2>
+        
+        {% for article in chapter.articles %}
+        <article class="pushdown-20">
+            <h3 {% if article.id %}id={{ article.id }}{% endif %}>{{ article.title }}</h3>
+
+            {% if article.image %}
+            <img class="responsive" src="article.image.source" alt="article.image.alt">
+            <p class="credit">{{ article.image.credit }}</p>
+            {% endif %}
+
+            {% if article.half_image %}
+            <div class="grid">
+                <div class="grid__cell u-1/2--larger">
+            {% endif %}
+
+            {{ article.text }}
+
+            {% if article.half_image %} 
+             </div><!--
+                --><div class="grid__cell u-1/2--larger">
+                   <img class="responsive full" src="/img/japanese_bee450.jpg" alt="Japanese honeybee">
+                   <p class="credit">Image: Shin. T / Gettyimages</p>
+                </div>
+            </div>
+            {% endif %}
+        </article>
+    </section>
+{% endfor %}
